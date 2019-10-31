@@ -1,0 +1,24 @@
+{
+  "name": "koho",
+  "version": "1.0.0",
+  "description": "In finance, it's common for accounts to have so-called \"velocity limits\". In this task, you'll write a program that accepts or declines attempts to load funds into customers' accounts in real-time.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "kamran.ghoochanian@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
